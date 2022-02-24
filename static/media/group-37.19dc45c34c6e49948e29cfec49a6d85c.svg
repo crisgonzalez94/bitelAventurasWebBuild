@@ -1,0 +1,27 @@
+<svg width="184" height="57" viewBox="0 0 184 57" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <radialGradient cx="70.071%" cy="32.879%" fx="70.071%" fy="32.879%" r="267.296%" gradientTransform="scale(.2983 1) rotate(-38.579 1.525 -2.026)" id="t6j8abljwa">
+            <stop stop-color="#23E4DE" offset="0%"/>
+            <stop stop-color="#00C3D5" offset="31.755%"/>
+            <stop stop-color="#004167" offset="100%"/>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="161.678%" gradientTransform="matrix(.29095 0 0 1 .355 0)" id="kzhze1rkdd">
+            <stop stop-color="#FFF" stop-opacity=".15" offset="0%"/>
+            <stop stop-color="#FFF" stop-opacity=".5" offset="100%"/>
+        </radialGradient>
+        <filter x="-4.2%" y="-14.1%" width="108.4%" height="128.1%" filterUnits="objectBoundingBox" id="2mx8z2z4hc">
+            <feGaussianBlur stdDeviation="5" in="SourceAlpha" result="shadowBlurInner1"/>
+            <feOffset dx="-5" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0.254901961 0 0 0 0 0.403921569 0 0 0 0.5 0" in="shadowInnerInner1"/>
+        </filter>
+        <path d="M178.673 8.385a8.581 8.581 0 0 1-.869 3.964l-12.96 26.523a8.581 8.581 0 0 1-7.71 4.814L94 43.685V50.9a2.4 2.4 0 0 1-.438 1.382l-.113.148a2.4 2.4 0 0 1-3.379.319l-10.955-9.064h-60.64a8.581 8.581 0 0 1-7.874-5.168L.71 15.693A8.581 8.581 0 0 1 8.387 3.702l161.51-3.7a8.581 8.581 0 0 1 8.776 8.383z" id="r79j87o3kb"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero" transform="translate(.011)">
+            <use fill="url(#t6j8abljwa)" xlink:href="#r79j87o3kb"/>
+            <use fill="#000" filter="url(#2mx8z2z4hc)" xlink:href="#r79j87o3kb"/>
+        </g>
+        <path d="M182.973 12.7a8.581 8.581 0 0 1-.869 3.963l-12.959 26.523a8.581 8.581 0 0 1-7.71 4.814H97.999L98 53.9a2.4 2.4 0 0 1-.438 1.382l-.113.148a2.4 2.4 0 0 1-3.379.319l-9.368-7.75L22.775 48a8.581 8.581 0 0 1-7.874-5.17l-9.89-22.822a8.581 8.581 0 0 1 7.676-11.992l161.51-3.7a8.581 8.581 0 0 1 8.776 8.383z" stroke="url(#kzhze1rkdd)" stroke-width=".55" transform="translate(.011)"/>
+    </g>
+</svg>

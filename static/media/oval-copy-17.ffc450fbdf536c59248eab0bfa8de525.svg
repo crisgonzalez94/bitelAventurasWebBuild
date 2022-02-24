@@ -1,0 +1,38 @@
+<svg width="146" height="62" viewBox="0 0 146 62" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-12.3%" y="-17.4%" width="124.6%" height="169.6%" filterUnits="objectBoundingBox" id="xmhte7csvb">
+            <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0.114419787 0 0 0 0 0.181725543 0 0 0 0.3 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-10.8%" y="-13%" width="121.5%" height="160.9%" filterUnits="objectBoundingBox" id="i61693rehd">
+            <feGaussianBlur stdDeviation="6" in="SourceAlpha" result="shadowBlurInner1"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 0.765115489 0 0 0 0 0.672101449 0 0 0 0 0 0 0 0 1 0" in="shadowInnerInner1"/>
+        </filter>
+        <filter x="-2.1%" y="-19%" width="104.1%" height="138%" filterUnits="objectBoundingBox" id="p4q62fbsjf">
+            <feGaussianBlur stdDeviation="1.061" in="SourceGraphic"/>
+        </filter>
+        <radialGradient cx="25.922%" cy="100%" fx="25.922%" fy="100%" r="187.058%" gradientTransform="scale(.35385 1) rotate(-32.316 .496 .183)" id="9cubf6u2hc">
+            <stop stop-color="#FFE000" offset="0%"/>
+            <stop stop-color="#FFF200" offset="100%"/>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="446.461%" gradientTransform="matrix(.10792 0 0 .07145 .446 .464)" id="6tsrhbuaqe">
+            <stop stop-color="#FFF" offset="0%"/>
+            <stop stop-color="#FFF461" stop-opacity="0" offset="100%"/>
+        </radialGradient>
+        <path d="M22.917 0h84.166C119.74 0 130 10.26 130 22.917v.166C130 35.74 119.74 46 107.083 46H22.917C10.26 46 0 35.74 0 23.083v-.166C0 10.26 10.26 0 22.917 0z" id="xfyj8cuita"/>
+    </defs>
+    <g transform="translate(8)" fill="none" fill-rule="evenodd">
+        <mask id="coe73d3eog" fill="#fff">
+            <use xlink:href="#xfyj8cuita"/>
+        </mask>
+        <g fill-rule="nonzero">
+            <use fill="#000" filter="url(#xmhte7csvb)" xlink:href="#xfyj8cuita"/>
+            <use fill="url(#9cubf6u2hc)" xlink:href="#xfyj8cuita"/>
+            <use fill="#000" filter="url(#i61693rehd)" xlink:href="#xfyj8cuita"/>
+        </g>
+        <path d="M81.167 8.364c50.246 0 77.5-3.745 77.5-8.364 0-4.62-27.254-8.364-77.5-8.364-50.246 0-77.5 3.745-77.5 8.364 0 4.62 27.254 8.364 77.5 8.364z" fill="url(#6tsrhbuaqe)" filter="url(#p4q62fbsjf)" mask="url(#coe73d3eog)"/>
+    </g>
+</svg>
